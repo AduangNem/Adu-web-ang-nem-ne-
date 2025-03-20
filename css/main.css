@@ -1,0 +1,39 @@
+
+
+#v-pills-home-tab {
+    font-size: 120%;
+    margin-bottom: 50px;
+}
+
+/* Style prd main */
+.prd-div {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.prd-details {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.prd-details:hover {
+    transform: scale(1.05);
+}
+
+.prd-details img {
+    max-width: 50%;
+    border-radius: 10px;
+    height: 80%;
+}
+
+.prd-details h5 {
+    padding-top: 3%;
+}
+
